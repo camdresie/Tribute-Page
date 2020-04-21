@@ -1,0 +1,99 @@
+
+/* Base Stylings */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: black;
+    font: 1em "Helvetica", sans-serif;
+}
+
+/* Navigation Stylings */
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+nav a:active {
+    color: black;
+}
+
+nav ul {
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .25);
+}
+
+nav li {
+    display: inline;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+/* Title Section */
+
+header {
+    height: 560px;
+    width: 100%;
+    background: linear-gradient(rgba(255, 5, 222, 0.966), transparent 90%),
+                linear-gradient(0deg, #fff, transparent),
+                url(images/lady-gaga-banner.png) no-repeat center;
+                
+    background-size: cover;
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Girassol", sans-serif;
+    font-size: 14rem;
+    margin: 0 auto 0 auto;
+    padding-top: 1rem;
+    letter-spacing: 1rem;
+    word-spacing: 11.875rem;
+    text-shadow: 4px 4px 5px white;
+}
+
+.subtitle {
+    font-family: "Girassol", sans-serif;
+    font-size: 4rem;
+    text-shadow: 4px 4px 5px white;
+}
+
+/* Timeline Section */
+
+.timeline-title {
+    font-family: "Girassol", sans-serif;
+    font-size: 5rem;
+    color: black;
+    margin: 1rem auto;
+    text-align: center;
+    text-shadow: 4px 4px 5px rgba(255, 5, 222, 0.966);
+    border-top: black solid 1px;
+}
+
+#timeline ul {
+    display: flexbox;
+}
+
+
+.list-image {
+    height: 200px;
+    width: auto;
+    border-radius: 5%;
+
+}

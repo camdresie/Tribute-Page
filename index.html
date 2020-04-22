@@ -6,59 +6,48 @@
     <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 
-<body>
-    <div>
+<body id=main>
+    
         <nav class="main-nav">
             <ul>
                 <li><a href="#top">Top of Page</a></li>
-                <li><a href="#timeline">Timeline</a></li>
-                <li><a href="#">External Links</a></li>
+                <li><a href="#tribute-info">Timeline</a></li>
+                <li><a href="#external-links">External Links</a></li>
             </ul>
         </nav>
         
         <header id="top">
-            <h1>Lady Gaga</h1>
+            <h1 id="title">Lady Gaga</h1>
             <span class="subtitle">Queen of the Gays</span>
         </header>
 
-        <section id="timeline">
+    <div class="wrapper clearfix">
+        <div id="img-div">
+            <img src="images/joanne.jpg" alt="Joanne-era Gaga" id="img">
+            <p id="img-caption">Lady Gaga at the release of her 2016 album, Joanne.</p>
+        </div>
+        <section id="tribute-info">
             <h4 class="timeline-title">A Timeline of Lady Gaga's life:</h4>
-            <ul>
-                <li>March 28, 1986: Lady Gaga is born Stefanie Joanne Angelina Germanotta in New York City
-                    <br>
-                        <img class="list-image" src="images/new-york.jpg" alt="New York City skyline"></li>
+            <ul class="timeline">
+                <li><strong>1986:</strong> Lady Gaga is born Stefanie Joanne Angelina Germanotta in New York City</li>
+                <li><strong>2005:</strong> Lady Gaga begins her musical career and ascent to greatness</li>
                 
-                <li>2005: Lady Gaga begins her musical career and ascent to greatness
-                    <br>
-                        <img src="images/early-gaga.jpg" alt="Lady Gaga performing early in her career" class="list-image">
-                </li>
+                <li><strong>2008:</strong> Lady Gaga's first album, The Fame, is released</li>
                 
-                <li>2008: Lady Gaga's first album, The Fame, is released</li>
+                <li><strong>2011:</strong> Lady Gaga's second album, Born This Way, is released</li>
                 
-                <li>2011: Lady Gaga's second album, Born This Way, is released
-                    <br>
-                    <img src="images/born-this-way.jpg" alt="Born This Way album cover" class="list-image">
-                </li>
+                <li><strong>2013:</strong> Lady Gaga's third album, Artpop, is released</li>
                 
-                <li>2013: Lady Gaga's third album, Artpop, is released
-                    <br>
-                    <img src="images/artpop.jpg" alt="Artpop-era Gaga in painted face" class="list-image">
-                </li>
+                <li><strong>2016:</strong> Lady Gaga's fourth album, Joanne, is released</li>
                 
-                <li>2016: Lady Gaga's fourth album, Joanne, is released
-                    <br>
-                    <img src="images/joanne.jpg" alt="Joanne-era Gaga" class="list-image">
-                </li>
-                
-                <li>2020: Lady Gaga's fifth album, Chromatica, will be released
-                    <br>
-                    <img class="list-image" src="images/lady-gaga.jpg" alt="An image of Lady Gaga from the Chromatica era.">
-                    </li>
-            
+                <li><strong>2020:</strong> Lady Gaga's fifth album, Chromatica, will be released</li>
             </ul>
+            <p class="quote"><q>Don't you ever let a soul in the world tell you that you can't be exactly who you are.</q> - Lady Gaga</p>
         </section>
-        <section>
-            <p id="external-links">To learn more about the stunning Lady Gaga, visit her <a href="https://en.wikipedia.org/wiki/Lady_Gaga" target="_blank">Wikipedia page.</a></p>
+
+        <section id="external-links">
+            <h4>Learn More</h4>
+            <p>To learn more about the stunning Lady Gaga, visit her <a id="tribute-link" href="https://en.wikipedia.org/wiki/Lady_Gaga" target="_blank" >Wikipedia page.</a></p>
         </section>
     </div>
     <footer>
